@@ -5,7 +5,6 @@ import { Options } from "./Options/Options";
 import { Feedback } from "./Feedback/Feedback";
 import { Notification } from "./Notification/Notification";
 
-// export const App = () => {
 export default function App() {
   const [rate, setRate] = useState(() => {
     const savedRate = window.localStorage.getItem("saved-rate");
@@ -70,4 +69,4 @@ export default function App() {
       )}
     </>
   );
-};
+}

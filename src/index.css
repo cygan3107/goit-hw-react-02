@@ -70,4 +70,5 @@ button:hover {
 ul {
   list-style-type: none;
   padding: 0;
+  gap: 10px;
 }
