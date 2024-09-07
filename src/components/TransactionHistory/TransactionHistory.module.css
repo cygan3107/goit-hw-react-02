@@ -1,0 +1,23 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.table {
+  margin: 0 auto;
+  width: 350px;
+  font-size: 14px;
+}
+.heading_row {
+  background-color: rgb(53, 52, 52);
+  color: white;
+  font-weight: 500;
+}
+.transaction_type {
+  text-transform: capitalize;
+}
+.grey_row {
+  background-color: rgb(171, 166, 166);
+}
